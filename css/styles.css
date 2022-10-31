@@ -1,255 +1,258 @@
-                                    /*колір оснвих надписів #212121*/
-                                    /*колір другорядних надписів #757575*/
-                                    /*колір кнопок #2196F3*/
-                                    /*білий #F5F5F5*/
-                                    /*фоновий*#2F303A*/
-                                    /*Logo*/
-                                    /*header*/
-                                    
-                                    .body {
-                                        font-family: 'Roboto', sans-serif;
-                                    }
-                                    
-                                    .header {
-                                        display: inline-block;
-                                        width: 1200px;
-                                        height: 80px;
-                                        left: 0px;
-                                        top: 0px;
-                                    }
-                                    
-                                    .logo-link {
-                                        text-decoration: none;
-                                        color: #2196f3;
-                                        font-family: Raleway;
-                                        font-style: normal;
-                                        font-weight: 700;
-                                        font-size: 26px;
-                                        line-height: 1, 19;
-                                    }
-                                    
-                                    .logo-header {
-                                        color: #000000;
-                                        font-family: Raleway;
-                                        font-weight: 700;
-                                        font-size: 26px;
-                                        line-height: 1.19;
-                                    }
-                                    /*nav*/
-                                    
-                                    .nav-list {
-                                        list-style-type: none;
-                                    }
-                                    
-                                    .nav-link1 {
-                                        text-decoration: none;
-                                        color: #2196f3;
-                                        font-weight: 500;
-                                        font-size: 14px;
-                                        line-height: 1.14;
-                                        letter-spacing: 0.02em;
-                                    }
-                                    
-                                    .nav-link {
-                                        list-style: none;
-                                        text-decoration: none;
-                                        color: #212121;
-                                        font-weight: 500;
-                                        font-size: 14px;
-                                        line-height: 1.14;
-                                        letter-spacing: 0.02em;
-                                    }
-                                    
-                                    .nav-link:hover,
-                                    .nav-link:focus {
-                                        color: #2196f3;
-                                    }
-                                    
-                                    .nav-link-portfolio {
-                                        background-color: #F5F4FA;
-                                        color: #212121;
-                                        font-weight: 500;
-                                        font-size: 14px;
-                                        line-height: 1.14;
-                                        letter-spacing: 0.02em;
-                                    }
-                                    
-                                    .nav-link-portfolio:hover,
-                                    .nav-link-portfolio:focus {
-                                        color: #F5F4FA;
-                                        background-color: #2196f3;
-                                    }
-                                    
-                                    .contact {
-                                        text-decoration: none;
-                                        color: #757575;
-                                        font-weight: 500;
-                                        font-size: 14px;
-                                        line-height: 1.14;
-                                        letter-spacing: 0.02em;
-                                    }
-                                    
-                                    .contact:hover,
-                                    .contact:focus {
-                                        color: #2196f3;
-                                    }
-                                    /*section */
-                                    
-                                    .section-list {}
-                                    
-                                    .section1 {
-                                        background-color: #2f303a;
-                                        text-align: center;
-                                    }
-                                    
-                                    .section-hero {
-                                        border-radius: nullpx;
-                                        color: #f5f5f5;
-                                        font-weight: 900;
-                                        font-size: 44px;
-                                        line-height: 60px;
-                                        /* or 136% */
-                                        letter-spacing: 0.06em;
-                                        text-transform: uppercase;
-                                    }
-                                    
-                                    .hero-link {
-                                        color: #f5f5f5;
-                                        background-color: #2196f3;
-                                        font-weight: 700;
-                                        font-size: 16px;
-                                        line-height: 1.88;
-                                        text-align: center;
-                                    }
-                                    /* identical to box height, or 188% */
-                                    
-                                    .hero-link1 {
-                                        color: #f5f5f5;
-                                        background-color: #2196f3;
-                                        font-weight: 700;
-                                        font-size: 16px;
-                                        line-height: 1.88;
-                                        /* identical to box height, or 188% */
-                                        letter-spacing: 0.06em;
-                                    }
-                                    
-                                    .hero-link2 {
-                                        font-weight: 500;
-                                        font-size: 16px;
-                                        line-height: 1.6;
-                                        /* identical to box height, or 162% */
-                                        text-align: center;
-                                        letter-spacing: 0.03em;
-                                        color: #FFFFFF;
-                                        background-color: #2196f3;
-                                    }
-                                    
-                                    .hero-text {
-                                        color: #f5f5f5;
-                                    }
-                                    
-                                    .section-titel {
-                                        color: #212121;
-                                        font-style: normal;
-                                        font-weight: 700;
-                                        font-size: 36px;
-                                        line-height: 1.14;
-                                        text-align: center;
-                                        letter-spacing: 0.03em;
-                                    }
-                                    
-                                    .section-titel1 {
-                                        font-weight: 700;
-                                        font-size: 36px;
-                                        line-height: 1.16;
-                                        /* identical to box height, or 200% */
-                                        letter-spacing: 0.06em;
-                                        color: #212121;
-                                    }
-                                    
-                                    .section-picture {
-                                        font-weight: 700;
-                                        font-size: 18px;
-                                        line-height: 2;
-                                        /* identical to box height, or 200% */
-                                        letter-spacing: 0.06em;
-                                        color: #212121;
-                                    }
-                                    
-                                    .section-titel-h3 {
-                                        font-style: normal;
-                                        font-weight: 700;
-                                        font-size: 14px;
-                                        line-height: 1.14;
-                                        letter-spacing: 0.03em;
-                                        text-transform: uppercase;
-                                    }
-                                    
-                                    .section-description {
-                                        color: #757575;
-                                        font-weight: 400;
-                                        font-size: 14px;
-                                        line-height: 1.71;
-                                        /* or 171% */
-                                        letter-spacing: 0.03em;
-                                    }
-                                    
-                                    .work-title {
-                                        color: #757575;
-                                        font-weight: 400;
-                                        font-size: 16px;
-                                        line-height: 1.18;
-                                        /* identical to box height */
-                                        text-align: center;
-                                        letter-spacing: 0.03em;
-                                    }
-                                    
-                                    .worker-name {
-                                        color: #212121;
-                                        font-weight: 500;
-                                        font-size: 16px;
-                                        line-height: 1.18;
-                                        /* identical to box height */
-                                        text-align: center;
-                                        letter-spacing: 0.03em;
-                                    }
-                                    /*footer*/
-                                    
-                                    .section-footer {
-                                        background-color: #2f303a;
-                                    }
-                                    
-                                    .logo-footer {
-                                        text-decoration: none;
-                                        color: #f5f5f5;
-                                        font-family: Raleway;
-                                        font-weight: 700;
-                                        font-size: 26px;
-                                        line-height: 1, 71;
-                                        /* or 171% */
-                                        letter-spacing: 0.03em;
-                                    }
-                                    
-                                    .footer-address {
-                                        color: #FFFFFF;
-                                        font-style: normal;
-                                        font-weight: 400;
-                                        font-size: 14px;
-                                        line-height: 1.71;
-                                        /* or 171% */
-                                        letter-spacing: 0.03em;
-                                    }
-                                    
-                                    .contact-footer {
-                                        text-decoration: none;
-                                        color: rgba(255, 255, 255, 0.6);
-                                        font-weight: 400;
-                                        font-size: 14px;
-                                        line-height: 1.14;
-                                        letter-spacing: 0.02em;
-                                    }
-                                    
-                                    .contact-footer:hover,
-                                    .contact-footer:focus {
-                                        color: #2196f3;
-                                    }
+                            /*колір оснвих надписів #212121*/
+                            /*колір другорядних надписів #757575*/
+                            /*колір кнопок #2196F3*/
+                            /*білий #F5F5F5*/
+                            /*фоновий*#2F303A*/
+                            /*Logo*/
+                            /*header*/
+                            
+                            .body {
+                                font-family: 'Roboto', sans-serif;
+                            }
+                            
+                            .header {
+                                display: inline-block;
+                                width: 1200px;
+                                height: 80px;
+                                left: 0px;
+                                top: 0px;
+                            }
+                            
+                            .logo-link {
+                                text-decoration: none;
+                                color: #2196f3;
+                                font-family: Raleway;
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 26px;
+                                line-height: 1, 19;
+                            }
+                            
+                            .logo-header {
+                                color: #000000;
+                                font-family: Raleway;
+                                font-weight: 700;
+                                font-size: 26px;
+                                line-height: 1.19;
+                            }
+                            /*nav*/
+                            
+                            ul {
+                                list-style-type: none;
+                            }
+                            
+                            .nav-link1 {
+                                text-decoration: none;
+                                color: #2196f3;
+                                font-weight: 500;
+                                font-size: 14px;
+                                line-height: 1.14;
+                                letter-spacing: 0.02em;
+                            }
+                            
+                            .nav-link {
+                                text-decoration: none;
+                                color: #212121;
+                                font-weight: 500;
+                                font-size: 14px;
+                                line-height: 1.14;
+                                letter-spacing: 0.02em;
+                            }
+                            
+                            .nav-link:hover,
+                            .nav-link:focus {
+                                color: #2196f3;
+                            }
+                            
+                            .nav-link-portfolio {
+                                background-color: #F5F4FA;
+                                color: #212121;
+                                font-weight: 500;
+                                font-size: 14px;
+                                line-height: 1.14;
+                                letter-spacing: 0.02em;
+                            }
+                            
+                            .nav-link-portfolio:hover,
+                            .nav-link-portfolio:focus {
+                                color: #F5F4FA;
+                                background-color: #2196f3;
+                            }
+                            
+                            .contact {
+                                text-decoration: none;
+                                color: #757575;
+                                font-weight: 500;
+                                font-size: 14px;
+                                line-height: 1.14;
+                                letter-spacing: 0.02em;
+                            }
+                            
+                            .contact:hover,
+                            .contact:focus {
+                                color: #2196f3;
+                            }
+                            /*section */
+                            
+                            .section-list {}
+                            
+                            .section1 {
+                                background-color: #2f303a;
+                                text-align: center;
+                            }
+                            
+                            .section-hero {
+                                border-radius: nullpx;
+                                color: #f5f5f5;
+                                font-weight: 900;
+                                font-size: 44px;
+                                line-height: 60px;
+                                /* or 136% */
+                                letter-spacing: 0.06em;
+                                text-transform: uppercase;
+                            }
+                            
+                            .hero-link {
+                                color: #f5f5f5;
+                                background-color: #2196f3;
+                                font-weight: 700;
+                                font-size: 16px;
+                                line-height: 1.88;
+                                text-align: center;
+                            }
+                            /* identical to box height, or 188% */
+                            
+                            .hero-link1 {
+                                color: #f5f5f5;
+                                background-color: #2196f3;
+                                font-weight: 700;
+                                font-size: 16px;
+                                line-height: 1.88;
+                                /* identical to box height, or 188% */
+                                letter-spacing: 0.06em;
+                            }
+                            
+                            .hero-link2 {
+                                font-weight: 500;
+                                font-size: 16px;
+                                line-height: 1.6;
+                                /* identical to box height, or 162% */
+                                text-align: center;
+                                letter-spacing: 0.03em;
+                                color: #FFFFFF;
+                                background-color: #2196f3;
+                            }
+                            
+                            .hero-text {
+                                color: #f5f5f5;
+                            }
+                            
+                            .section-team {
+                                background: #F5F4FA;
+                            }
+                            
+                            .section-titel {
+                                color: #212121;
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 36px;
+                                line-height: 1.14;
+                                text-align: center;
+                                letter-spacing: 0.03em;
+                            }
+                            
+                            .section-titel1 {
+                                font-weight: 700;
+                                font-size: 36px;
+                                line-height: 1.16;
+                                /* identical to box height, or 200% */
+                                letter-spacing: 0.06em;
+                                color: #212121;
+                            }
+                            
+                            .section-picture {
+                                font-weight: 700;
+                                font-size: 18px;
+                                line-height: 2;
+                                /* identical to box height, or 200% */
+                                letter-spacing: 0.06em;
+                                color: #212121;
+                            }
+                            
+                            .section-titel-h3 {
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 14px;
+                                line-height: 1.14;
+                                letter-spacing: 0.03em;
+                                text-transform: uppercase;
+                            }
+                            
+                            .section-description {
+                                color: #757575;
+                                font-weight: 400;
+                                font-size: 14px;
+                                line-height: 1.71;
+                                /* or 171% */
+                                letter-spacing: 0.03em;
+                            }
+                            
+                            .work-title {
+                                color: #757575;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 1.18;
+                                /* identical to box height */
+                                text-align: center;
+                                letter-spacing: 0.03em;
+                            }
+                            
+                            .worker-name {
+                                color: #212121;
+                                font-weight: 500;
+                                font-size: 16px;
+                                line-height: 1.18;
+                                /* identical to box height */
+                                text-align: center;
+                                letter-spacing: 0.03em;
+                            }
+                            /*footer*/
+                            
+                            .section-footer {
+                                background-color: #2f303a;
+                            }
+                            
+                            .logo-footer {
+                                text-decoration: none;
+                                color: #f5f5f5;
+                                font-family: Raleway;
+                                font-weight: 700;
+                                font-size: 26px;
+                                line-height: 1, 71;
+                                /* or 171% */
+                                letter-spacing: 0.03em;
+                            }
+                            
+                            .footer-address {
+                                color: #FFFFFF;
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 14px;
+                                line-height: 1.71;
+                                /* or 171% */
+                                letter-spacing: 0.03em;
+                            }
+                            
+                            .contact-footer {
+                                text-decoration: none;
+                                color: rgba(255, 255, 255, 0.6);
+                                font-weight: 400;
+                                font-size: 14px;
+                                line-height: 1.14;
+                                letter-spacing: 0.02em;
+                            }
+                            
+                            .contact-footer:hover,
+                            .contact-footer:focus {
+                                color: #2196f3;
+                            }
