@@ -68,7 +68,7 @@
                                 background-color: #F5F4FA;
                                 color: #212121;
                                 font-weight: 500;
-                                font-size: 14px;
+                                font-size: 16px;
                                 line-height: 1.14;
                                 letter-spacing: 0.02em;
                             }
@@ -133,6 +133,17 @@
                             }
                             
                             .hero-link2 {
+                                font-family: inherit;
+                                font-weight: 500;
+                                font-size: 16px;
+                                line-height: 1.14;
+                                text-align: center;
+                                letter-spacing: 0.03em;
+                                color: #FFFFFF;
+                                background-color: #2196f3;
+                            }
+                            
+                            .hero-link3 {
                                 font-family: inherit;
                                 font-weight: 500;
                                 font-size: 16px;
@@ -231,7 +242,7 @@
                                 letter-spacing: 0.03em;
                             }
                             
-                            .footer-address {
+                            .footer2 {
                                 font-style: normal;
                                 color: #FFFFFF;
                                 font-size: 14px;
